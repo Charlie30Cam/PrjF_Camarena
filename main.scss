@@ -77,6 +77,34 @@
         text-decoration: none;
         color: $azul;
     }  
+    @media (max-width: 768px) {
+        .navbar2 {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+        .iconLogo {
+            grid-column: 3/4;
+            width: 50%;
+            margin: 0 auto;
+        }
+    
+        .home {
+           
+            
+            grid-column: 2/5;
+            margin-top: 1rem;
+        }
+    
+        .portfolio {
+            grid-column: 2/5;
+            margin-top: 1rem;
+        }
+    
+        .whatsapp {
+            grid-column: 2/5;
+            margin-top: 1rem;
+        }
+    }
     
 }
 
@@ -153,13 +181,26 @@
                         border-radius: 10px;
                         
                     }
-                   
-
-                }
+                }  
         }
+        @media (max-width: 768px) {
+            .bienvenida{
+                
+            }
+            .info {
+                #emojiSaludo {
+                    font-size: 0px;
+                }
 
+                h2 {
+                    font-size: 0px;
+                }
+            }
+        }
+        
 }
         
+
 
 .subMenu {
     width: 70%;
@@ -195,7 +236,7 @@
             
             font-size: 25px;
             padding: 30px 30px;
-            line-height: 40px;
+            line-height: 25px;
             font: $subtitulo;
             font-weight: 800;
             background: #212121;
@@ -234,6 +275,23 @@
             
         }
 
+        
+    }
+    @media (max-width:768px) {
+        h2 {
+            font-size: 15px;
+        }
+        #emojiMusculo {
+            font-size: 15px;
+        }
+        .subMenuOps {
+            button {
+                font-size: 15px;
+                line-height: 13px;
+                
+            }
+            
+        }
         
     }
 }
@@ -280,6 +338,21 @@
         img {
             width: 100%;
             
+        }
+    }
+    @media (max-width:980px) {
+        .ultiActual {
+
+        }
+        .info {
+            width: 50%;
+            h3{
+                font-size: 20px;
+            }
+            p {
+                font-size: 10px;
+                margin-bottom: 10px;
+            }
         }
     }
     
