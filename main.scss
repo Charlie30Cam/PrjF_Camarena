@@ -531,6 +531,59 @@
             font: $titulo;
             text-align: left;
     }
+    .primer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap: 2rem;
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: $blanco;
+            font: $titulo;
+            
+        }
+        margin-top: 2rem;
+        img {
+            width: 40%;
+        }
+        
+    }
+    .lista {
+        
+        text-align: justify;
+        margin-top: 1rem;
+        font-size: 15px;
+            font-weight: 200;
+            color: $blanco;
+            font: $parrafo;
+    }
+    .merch {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        margin: 1rem 0rem;
+        gap: 20px;
+        h2 {
+            font-size: 40px;
+            font-weight: 800;
+            color: $verde;
+            font: $titulo;
+            text-align: left;
+        }
+        .card {
+            
+            .card-text {
+                text-align: center;
+                font: $parrafo;
+                font-weight: 500;
+                line-height: 20px;
+                color: $azul;
+            }
+        }
+    }
 }
 
 .footer {
