@@ -445,6 +445,93 @@
     }
 }
 
+.intro {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    .texto {
+        margin-left: 10px;
+        width: 50%;
+        
+       
+        h2 {
+            font-size: 60px;
+            font-weight: 800;
+            color: $verde;
+            font: $titulo;
+        }
+        p {
+            font: $parrafo;
+            color: $blanco;
+            width: 100%;
+            font-weight: 600;
+            text-align: justify;
+           font-size: 15px;
+        }
+    }
+
+    img {
+        width: 25%;
+    }
+}
+
+.hobbies {
+    margin: 1rem 0rem;
+    text-align: center;  
+    h2 {
+        font-size: 40px;
+            font-weight: 800;
+            color: $verde;
+            font: $titulo;
+    }
+    .hobbie {
+          gap: 40px;
+          
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+        .iconH {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            p {
+                font: $parrafo;
+                color: $blanco;
+                width: 100%;
+                font-weight: 600;
+                text-align: justify;
+                font-size: 15px;
+                text-align: center;
+            }
+
+        }
+        
+    }
+}
+
+.expTop {
+    margin: 1rem 0rem;
+    width: 80%;
+    h2 {
+            font-size: 50px;
+            font-weight: 800;
+            color: $verde;
+            font: $titulo;
+            text-align: left;
+    }
+}
 
 .footer {
     background: #212121;
