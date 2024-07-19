@@ -24,7 +24,7 @@
 
 .navbar2 {
     a:active {
-        transform: scale(0.95); 
+        transform: scale(0.90); 
         background-color: $blanco; 
       }
     
@@ -188,9 +188,7 @@
                 }  
         }
         @media (max-width: 768px) {
-            .bienvenida{
-                
-            }
+            
             .info {
                 #emojiSaludo {
                     font-size: 0px;
@@ -351,9 +349,7 @@
         }
     }
     @media (max-width:980px) {
-        .ultiActual {
-
-        }
+        
         .info {
             width: 50%;
             h3{
@@ -407,6 +403,11 @@
 }
 
 .menu {
+    button:active {
+        transform: scale(0.95); 
+        background-color: $blanco; 
+      }
+
     gap: 40px;
     width: 80%;
     display: flex;
@@ -928,3 +929,22 @@
     }
 }
     
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+        color: $verde;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: $blanco;
+    }
+}
