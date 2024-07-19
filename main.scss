@@ -668,7 +668,22 @@
     img {
         width: 25%;
     }
+    @media (max-width: 768px) {
+        .texto {
+            h2 {
+                font-size: 25px;
+                margin: 0rem;
+                padding: 0rem;
+            }
+            p {
+                text-align: left;
+                font-size: 12px;
+            }
+        }
+    }
 }
+
+
 
 .hobbies {
     margin: 1rem 0rem;
@@ -705,11 +720,54 @@
                 font-size: 15px;
                 text-align: center;
             }
-
+            
         }
         
+        
     }
+    
 }
+@media (max-width: 768px) {
+    .hobbies {
+    
+        
+            .iconH {
+                p {
+                    font-size: 10px;
+                }
+            }
+        
+        .hobbie {
+            gap: 5px;
+         
+        .iconH {
+            p {
+                font-size: 10px;
+            }
+            
+        }   
+        }
+        
+        img {
+            width: 60px;
+            
+        }
+        h2 {
+            font-size: 25px;
+            margin: 0rem;
+            padding: 0rem;
+        }
+        p {
+            text-align: left;
+            font-size: 30px;
+        }
+        
+        
+    }
+    
+    
+}
+
 
 .expTop {
     margin: 1rem 0rem;
