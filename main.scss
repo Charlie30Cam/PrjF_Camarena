@@ -832,7 +832,49 @@
             }
         }
     }
+    @media (max-width:768px) {
+        h2 {
+            font-size: 20px;
+        }
+        .primer {
+            h3 {
+                font-size: 15px;
+            }
+            
+        }
+        .lista {
+            li {
+                font-size: 10px;
+                text-align: left;
+                font-weight: 500;
+                margin: 1rem 0rem;
+            }
+        }
+        h2 {
+            text-align: center;
+            margin: 1rem;
+        }
+        .merch {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            
+          
+            margin: 0rem;
+                padding: 0rem;
+            p {
+                font-size: 15px;
+                margin: 0rem;
+                line-height: 2px;
+            }
+        }
+    }
 }
+
+
 
 .footer {
     background: #212121;
